@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                     button.isClickable = false
                 } else {
                     button.isClickable = true
-                    textView.setText("$" + s)
+                    editText.setText("$" + s)
                 }
 
             }
